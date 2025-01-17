@@ -6,7 +6,7 @@ nav {
 nav a {
     color: white;
     display: block;
-padding: 20px
+    padding: 20px
 }
 
 h1 {
@@ -17,7 +17,7 @@ img{
     width: 150px;
     height: auto;
     border: 1px solid black;
-    padding: 2px;
+    padding: 5px;
     box-shadow: 0 0 30px gray
 }
 
