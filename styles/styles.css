@@ -1,3 +1,11 @@
+:root {
+    --heading-background-color: #f06;
+    --heading-text-color: #333;
+    --heading-front: 'montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,8 +22,13 @@ nav a {
     padding: 20px
 }
 
+/* some example variable use in declarations. */
+
 h1 {
-    color: darkblue;
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-front);
+    padding: var(--padding);
 }
 
 p {
@@ -27,6 +40,9 @@ main {
 }
 
 aside {
+    margin: 10px auto;
+    padding: var(--padding);
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
     width: 20em; 
     text-align: center;
     position: relative;
