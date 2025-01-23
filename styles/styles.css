@@ -32,7 +32,7 @@ h1 {
 }
 
 p {
-    padding: 10px;
+    padding: var(--padding);
 }
 
 main {
@@ -64,14 +64,14 @@ main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    padding: var(--heading-front);
+    box-shadow: 0 0 10px; rgb(0 0 0 / 0.1);
     float: right;
-    margin: 0 0 1rem 1rem;
+    margin: 10px auto;
 }
 
 p {
-   padding: 0; 
+   padding: var(--padding)
 }
 
 footer {
