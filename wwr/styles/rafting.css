@@ -1,6 +1,54 @@
 :root {
-	--main-bg-color: #ffffff;
-	--main-text-color: #000000;
+	--primary-color: #dfb005;
+	--secondary-color: #10b3a8;
+	--accent1-color: #da8631;
+	--accent2-color: #e66673;
+
+	--heading-font: "Roboto", ital;
+	--paragraph-font: "Source Serif 4", ital;
+}
+
+body {
+	font-family: var(--paragraph-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--heading-font);
+}
+
+a {
+	text-decoration: none;
+}
+
+header, main, footer {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.hero {
+	position:relative;
+}
+
+.hero h1 {
+	position: absolute;
+	top: 1em;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: beige;
+}
+
+.hero article {
+	background-color: beige;
+	position: absolute;
+	top: 15rem;
+	left: 2rem;
+	right: 2rem;
+}
+
+.hero article img {
+	float: right;
+	margin: 2rem;
+	width: 13rem;
 }
 
 .sociallinks img {
