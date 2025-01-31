@@ -43,15 +43,10 @@ p {
 }
 
 main {
-    max-width: 840px;
-}
-
-main {
     grid-column: 2/3;
     margin: 1rem;
 }
 aside {
-    width: 20rem;
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
@@ -64,14 +59,16 @@ header, footer, .grid{
 .grid {
     display: grid;
     align-items: center;
+    grid-template-columns: 1fr 2fr;
 }
 aside {
     margin: 10px auto;
     padding: var(--padding);
     box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
-    width: 20em; 
     text-align: center;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 aside img {
@@ -82,8 +79,8 @@ aside img {
 aside h2 {
     position: absolute;
     top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+    text-align: center;
     width: 100%;
 }
 
@@ -99,6 +96,9 @@ p {
    padding: var(--padding)
 }
 
+aside p {
+    text-align: left;
+}
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
@@ -117,3 +117,6 @@ footer {
 
 }
 
+.box li {
+    margin: 0 1em;
+}
