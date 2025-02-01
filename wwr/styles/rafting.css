@@ -82,3 +82,111 @@ footer {
 .social img {
     width: 3em;
 }
+
+/* header items styling */
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: center;
+    background-color:#3e3e3e;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    display: flex;
+    padding: 1em;
+    font-family: var(--heading-font);
+    color: #fff;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color:#DA8631;
+
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: 2em;
+    margin: 50px 0; 
+}
+
+.adventures {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    justify-items: center;
+}
+
+.history h2,
+.adventures h2 {
+    grid-column: 1/-1;
+    justify-self: center;
+    padding: 1em 0;
+}
+
+figure:nth-of-type(odd) {
+    background-color: var(--accent1-color);
+    color: var(--nav-link-color);
+    align-self: center;
+}
+
+figure:nth-of-type(even) {
+    background-color: var(--accent2-color);
+    color: var(--nav-link-color);
+    align-self:center; 
+}
+
+figcaption {
+    text-align: center;
+    padding: 1em 0;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: 2em;
+    margin: 50px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #3e3e3e;
+    margin-top: 100px;
+}
+
+/* Footer styling */
+
+footer p {
+    color: #fff;
+
+}
+
+.footer-menu {
+    color: #fff;
+}
+
+/* Social media link styling */
+.sociallinks {
+    display: flex;
+    gap: 1rem;
+}
+
+.sociallinks img {
+    width: 2rem;
+}
+
+.sociallinks a:hover {
+    /* This removes the background color from the nav a:hover rule for the social links
+    in the footer. */
+    background-color: unset
+}
