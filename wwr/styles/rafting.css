@@ -97,6 +97,7 @@ nav {
 }
 
 nav a {
+    display: flex;
     padding: 1em;
     font-family: var(--heading-font);
     color: #fff;
@@ -115,13 +116,16 @@ nav a:hover {
     margin: 50px 0; 
 }
 
-.adventure
+.adventures {
+    margin: 50px 0;
+    display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
     justify-items: center;
 }
 
-.history h2 {
+.history h2,
+.adventures h2 {
     grid-column: 1/4;
     justify-self: center;
     padding: 1em 0;
