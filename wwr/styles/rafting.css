@@ -120,21 +120,16 @@ nav a:hover {
 
 .adventures {
     margin: 50px 0;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-}
-
-.adventures figure {
-    text-align: center;
-    background-color: var(--accent1-color);
-    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(5s, 1fr);
+    gap: 1rem;
+    justify-items: center;
+    position: relative;
 }
 
 .history h2,
 .adventures {
-    grid-column: 1/4;
+    grid-column: 1/-1;
     justify-self: center;
     padding: 1em 0;
 }
@@ -153,7 +148,7 @@ figure:nth-of-type(even) {
 
 figcaption {
     text-align: center;
-    padding-top:  0.5rem;
+    padding: 1em 0;
 }
 
 .history img {
@@ -199,3 +194,4 @@ footer p {
     in the footer. */
     background-color: unset
 }
+
