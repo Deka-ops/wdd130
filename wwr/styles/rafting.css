@@ -10,6 +10,8 @@
 
 body {
     font-family: var(--paragraph-font);
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -118,14 +120,20 @@ nav a:hover {
 
 .adventures {
     margin: 50px 0;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.adventures figure {
+    text-align: center;
+    background-color: var(--accent1-color);
+    padding: 1rem;
 }
 
 .history h2,
-.adventures h2 {
+.adventures {
     grid-column: 1/4;
     justify-self: center;
     padding: 1em 0;
@@ -145,7 +153,7 @@ figure:nth-of-type(even) {
 
 figcaption {
     text-align: center;
-    padding: 1em 0;
+    padding-top:  0.5rem;
 }
 
 .history img {
