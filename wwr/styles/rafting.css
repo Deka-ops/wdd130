@@ -57,8 +57,8 @@ header, main, footer {
 
 .hero article img {
     float: right;
-    margin: 2rem;
-    width: 10rem;
+    margin: 2px;
+    width: 5px;
 }
 
 .hero article p {
@@ -118,20 +118,37 @@ nav a:hover {
     margin: 50px 0; 
 }
 
+img {
+    width: 100%;
+}
+
 .adventures {
     margin: 50px 0;
     display: grid;
-    grid-template-columns: repeat(5s, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
     justify-items: center;
-    position: relative;
+    /* position: relative; */
 }
 
 .history h2,
-.adventures {
+.adventures h2 {
     grid-column: 1/-1;
     justify-self: center;
     padding: 1em 0;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+}
+
+figure {
+    margin: 0;
 }
 
 figure:nth-of-type(odd) {
