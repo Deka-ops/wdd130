@@ -246,7 +246,7 @@ footer {
 
 .submit {
     padding: 1em 3em;
-    background-color: var(--secondary-color);
+    background-color: var(--accent-color);
 }
 
 .address {
