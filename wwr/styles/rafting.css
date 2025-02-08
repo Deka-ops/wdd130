@@ -256,6 +256,12 @@ footer {
 
 .employees {
     grid-column: 2/12;
+    display: flex;
+    gap: 2em;
+}
+
+.gmap {
+    border: 0;
 }
 
 /* Contact Us Styling End*/
