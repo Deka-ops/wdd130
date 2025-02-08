@@ -27,6 +27,21 @@ header, main, footer {
     margin: 0 auto;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap:1em;
+}
+
+.title {
+    grid-column: 1/-1;
+}
+
+.center {
+    text-align: center;
+    justify-self: center;
+}
+
 .hero {
     position:relative
 }
@@ -186,6 +201,35 @@ footer {
     margin-top: 100px;
 }
 
+/*About Us End Styling */
+
+/* Contact Us Styling Begin */
+.Contact {
+    grid-column: 2/7;
+    grid-row: 1/5;
+}
+
+.contact-fields {
+    display: grid;
+    grid-template-columns: 1fr, 5fr;
+}
+
+.contact-fields label {
+    justify-self: right;
+}
+
+.contact-fields input {
+    justify-self: left;
+}
+
+.address {
+    grid-column: 7/12;
+    grid-row: 1/5;
+}
+
+.employees
+
+/* Contact Us Styling End*/
 /* Footer styling */
 
 footer p {
@@ -194,6 +238,10 @@ footer p {
 }
 
 .footer-menu {
+    color: #fff;
+}
+
+footer a {
     color: #fff;
 }
 
