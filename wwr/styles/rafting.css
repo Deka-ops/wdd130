@@ -51,14 +51,15 @@ header, main, footer {
     background-color: #ffffff95;
     position:absolute;
     top: 15rem;
+    bottom: 1rem;
     left: 2rem;
     right: 2rem;
 }
 
 .hero article img {
     float: right;
-    margin: 2px;
-    width: 5px;
+    margin: 2rem;
+    width: 5rem;
 }
 
 .hero article p {
