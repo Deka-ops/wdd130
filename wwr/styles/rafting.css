@@ -240,6 +240,15 @@ footer {
 
 }
 
+.signup input {
+    width: 2cm;
+}
+
+.submit {
+    padding: 1em 3em;
+    background-color: var(--secondary-color);
+}
+
 .address {
     grid-column: 7/13;
     grid-row: 2/5;
