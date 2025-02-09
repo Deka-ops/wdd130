@@ -258,10 +258,18 @@ footer {
     grid-column: 2/12;
     display: flex;
     gap: 2em;
+    margins: 5em 0;
+}
+
+.add-phone {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
 }
 
 .gmap {
     border: 0;
+    margin-top: 2em;
 }
 
 /* Contact Us Styling End*/
