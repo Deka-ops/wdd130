@@ -216,6 +216,36 @@ footer {
     gap: 2em;
 }
 
+.contactus h1 {
+    grid-column: 1/-1;
+    grid-row: 1;
+    justify-self: center;
+}
+
+.contactform {
+    grid-column: 2/6;
+    grid-row: 2/4;
+}
+
+.address{
+    grid-column: 7/12;
+    grid-row: 2/4;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    color: var(--white);
+    padding: 1em;
+    gap:1em;
+}
+
+.address h2 {
+    color: var(--white);
+}
+
+.address a {
+    color: #fff;
+}
+
 .contact-fields {
     display: grid;
     grid-template-columns: 1fr, 3fr;
@@ -249,16 +279,10 @@ footer {
     background-color: var(--accent-color);
 }
 
-.address {
-    grid-column: 7/13;
-    grid-row: 2/5;
-}
-
 .employees {
     grid-column: 2/12;
     display: flex;
     gap: 2em;
-    margins: 5em 0;
 }
 
 .add-phone {
@@ -271,6 +295,18 @@ footer {
     border: 0;
     margin-top: 2em;
 }
+
+.hrule {
+    grid-column: 1/-1;
+    border: solid 10px;
+}
+
+.employees:nth-last-of-type {
+    grid-column: 2/4;
+
+}
+
+
 
 /* Contact Us Styling End*/
 /* Footer styling */
