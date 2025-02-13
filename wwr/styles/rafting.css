@@ -251,15 +251,15 @@ footer {
     justify-self: right;
 }
 
-.contact-fields input,
-.contact-fields textarea,
+.contact-fields input 
+.contact-fields textarea
 .contact-fields select {
     justify-self: left;
     width: 100%;
 }
 
-.contact-fields input:focus-visible .contact-fields textarea:focus-visible,
-.contact-fields select:focus-visible {
+.contact-fields input:focus-visible .contact-fields textarea:focus-visible
+.contact-fields select:focus-visible { 
     border: #00ff00 solid 2px;
     font-size: 20px;
 
