@@ -1,54 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gertrude Njideka | WDD 130</title>
-    <meta name="description" content="Gertrude Njideka's BYU idaho course wdd130 home page">
-    <meta name="author" content="Gertrude Njideka">
-    <link rel="stylesheet" href="styles/styles.css">
+    <meta name="description" content="Experience thrilling white water rafting adventures with TessTrip Tour.">
+    <meta name="author" content="Deka-Ops">
+    <title>Home | Deka-Ops Tour</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <header>
+        <img src="images/logo.jpg" alt="Deka-Ops logo">
         <nav>
-        <a href="https://1drv.ms/f/c/da2b7af47817e6d6/EmxPW6vTWapOnC6p0rjG-UkBvFY-f3BRjrRtJaVI0HUxog?e=ticf3i">Home</a>
-        <a href="https://facebook.com">Facebook</a>
-        <a href="https://instagram.com">Instagram</a>
-        <a href="https://youtube.com">Youtube</a>
+            <ul class="navigation">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
-    <div class="grid">
-    <main>
-        <h1>Gertrude Njideka | WDD 130</h1>
-        <img src="images/profile.jpg" alt="Hello, my name is Gertrude Njideka" width="200">
-        <p>Hello! My name is Gertrude Njideka and I am from Abia, Nigeria. I enjoy listening to music.</p>
-        <p>I am currently enrolled at BYU to study software development. I look forward to the numerous Python classes that we will have.</p>
-        <p>I am passionate about technology, coding, and problem-solving, aiming to build innovative software solutions.</p>
-        <p>Through this program, I hope to gain expertise in programming, software engineering principles, and modern development tools.</p>
-        <p> Preparing for a successful career in the tech industry.</p>
-    <ul class="box">
-        <li><a href="https://www.churchofjesuschrist.org/temples/details/philadelphia-pennysylvania-temple" target="_blank">Philadelphia-pennysylvania-temple</a></li>
-        <li><a href="https://www.churchofjesuschrist.org/temples/details/paris-france-temple" target="_blank">Paris-france-temple</a></li>
-        <li><a href="https://www.churchofjesuschrist.org/temples/details/lima-peru-los-olivos-temple" target="_blank">Berlin Germany Temple</a></li>
-    </ul>
+    
+    <section class="hero">
+        <img src="images/rafting_hero.webp" alt="Exciting White Water Rafting Adventure">
+        <h1>Experience the Thrill of White Water Rafting</h1>
+    </section>
+    
+    <main class="grid-layout">
+        <section class="intro">
+            <h2>Welcome to Deka-Ops Tour</h2>
+            <p>Discover the ultimate adventure with our guided white water rafting experiences. Whether you're a beginner or an expert, we have the perfect trip for you.</p>
+        </section>
 
-    </main>
-            <aside class="box">
-                <h2>Abia State Nigeria</h2>
-                <img src="images/Abia.jpg" alt="Abia Nigeria">
-                <p>Abia is a state in the south-east geopolitical zone of Nigeria. 
-                The state is bordered to the northwest by Anambra state and 
-                to the northwest by the states of Enugu and Ebonyi, Imo state to the west,
-                Cross River state to the east, Akwa Ibom state to the southeast and Rivers State to the south.
-                Abia is the only Southeastern state that has boundaries with the other four Southeastern states in Nigeria.
-                It takes its name from the acronym of the state's most populated regions: Aba, Bende, Isiukwuato, and Afikpo.
-                The state capital is Umuahia while the largest city and commercial center is Aba.</p>
-            </aside>
+        <section class="features">
+            <div class="feature">
+                <img src="images/rafting2.webp" alt="Rafting in action">
+                <h3>Exciting Rapids</h3>
+                <p>Challenge yourself with thrilling rapids guided by our expert team.</p>
             </div>
-            <footer>
-                <p>©2005 🎄 Gertrude Njideka🎄 Abia, Nigeria</p>
-            </footer>
-        </body>
-        <!-- 21 january 2025 -->
-        </html>
+            <div class="feature">
+                <img src="images/rafting8.jpg" alt="Team enjoying rafting">
+                <h3>Fun for Everyone</h3>
+                <p>From families to adventure seekers, we offer experiences for all skill levels.</p>
+            </div>
+        </section>
+
+        <section class="company-purpose">
+            <img src="images/rafting6.webp" alt="water">
+            <div>
+            <h3>Our Purpose</h3>
+            <p>At Deka-Ops, our mission is to deliver safe and exciting rafting adventures</p>
+            </div>
+        </section>
+
+        <section class="offerings">
+            <img src="images/rafting4.webp" alt="rafters">
+            <div>
+                <h3>What We Offer</h3>
+                <p>We provide top-tier rafting gear with customizable itineraries</p>
+            </div>
+        </section>
+    </main>
+    
+    <section class="cta">
+        <div class="explore">
+        <h2>Ready for an Unforgettable Adventure?</h2>
+        <a href="trips.html" class="cta-button">Explore Our Trips</a>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <h2>Sign Up for Our Newsletter</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p class="wireframe-link">
+                <a href="images/trips-wireframe.jpg" target="_blank">View Wireframe</a>
+            </p>
+            <p class="copyright">© 2025, Deka-Ops All rights reserved</p>
+            <nav class="sociallinks">
+                <a href="https://web.facebook.com" target="_blank">
+                    <img src="images/facebook_logo_icon.svg" alt="Facebook">
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="images/social_twitter_icon.svg" alt="Twitter">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="images/instagram_logo.svg" alt="Instagram">
+                </a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
