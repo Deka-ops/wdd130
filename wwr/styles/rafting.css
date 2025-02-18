@@ -45,7 +45,8 @@ footer {
 }
 
 .hero {
-    position: relative
+    position: relative;
+    grid-column: 1/-1;
 }
 
 .hero>img {
@@ -79,7 +80,7 @@ footer {
 }
 
 .hero article p {
-    color: #150480;
+  color: #150103;
     font-size: 1.25rem;
     padding: 1rem;
     font-weight: 500;
@@ -90,7 +91,11 @@ footer {
     color: #fff;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    padding: 2rem
+    padding: 2rem;
+    /* display: flex;
+    justify-content: space-between; */
+    align-items: center;
+   
 }
 
 .social {
@@ -116,7 +121,7 @@ nav {
 }
 
 nav a {
-    display: flex;
+   
     padding: 1em;
     font-family: var(--heading-font);
     color: #fff;
@@ -125,7 +130,7 @@ nav a {
 nav a:hover {
     background-color: #fff;
     color: #DA8631;
-
+    text-decoration: underline
 }
 
 .history {
@@ -373,29 +378,6 @@ footer a {
     margin: 0 0.25rem 0 1rem;
   }
   
-  .navigation{
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-  }
-  
-  .navigation li{
-    flex: 1 1 auto;
-  }
-  
-  .navigation a{
-    display: block;
-    color: var(--accent2-color);
-    text-decoration: none;
-    padding: 20px;
-  }
-  
-  .navigation a:hover{
-    color: var(--accent1-color--);
-    font-weight: 700;
-    text-decoration: underline;
-  }
   
   .hero{
     position: relative;
@@ -426,7 +408,7 @@ footer a {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    background-color: rgba(118, 184, 201, 0.9);
+    background-color: rgba(3, 27, 33, 0.596);
     padding: 10px;
     border-radius: 5px;
     float: right;
@@ -530,15 +512,6 @@ footer a {
     color: var(--primary-color);
   }
   
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 10px 0;
-  }
   
   .copyright {
     text-align: center;
