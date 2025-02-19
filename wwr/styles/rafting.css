@@ -243,7 +243,7 @@ footer {
 }
 
 .address a {
-    color: var(--secondary-color);
+    color: #150480;
 }
 
 .contact-fields {
@@ -275,7 +275,7 @@ footer {
 
 .submit {
     padding: 1em 3em;
-    background-color: var(--accent-color);
+    background-color: #150103;
 }
 
 .employees {
@@ -611,7 +611,7 @@ footer a {
   }
   
   button {
-    background-color: var(--primary-color);
+    background-color: #05544f;
     color: white;
     padding: 10px;
     border: none;
@@ -675,7 +675,7 @@ footer a {
     border-radius: 10px;
   }
   .cta a {
-    color: var(--secondary-color);
+    color: #ccc;
     font-weight: bold;
     text-decoration: underline;
   }
